@@ -96,6 +96,8 @@ public class MainActivity extends AppCompatActivity {
 
         btnReset.setOnClickListener(new View.OnClickListener() {
             public void onClick(View view) {
+                tvEach.setText("");
+                tvTotal.setText("");
                 etNum.setText("");
                 etAmount.setText("");
                 etDiscount.setText("");
